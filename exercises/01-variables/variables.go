@@ -4,6 +4,8 @@
 // 3. Write a function that returns both
 package main
 
+import "fmt"
+
 func DeclareVariables() (int, string) {
 	number := 2
 	word := "string"
@@ -13,5 +15,6 @@ func DeclareVariables() (int, string) {
 
 func main() {
 	number, world := DeclareVariables()
-
+	fmt.Println("number:", number)
+	fmt.Println("string: ", world)
 }
